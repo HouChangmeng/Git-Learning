@@ -30,5 +30,5 @@ ___
 
 远端完成更新后
 
-1.git branch -d xxx 删除本地的git分支  
-2.git pull origin master 再把远端的最新代码拉至本地  
+1.git branch -D xxx 删除本地的git分支  
+2.git pull origin main 再把远端的最新代码拉至本地  
