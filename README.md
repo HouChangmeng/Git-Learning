@@ -1,3 +1,3 @@
 # Git-Learning
 
-A simple repositroy for learn how to use git and github.
+A simple repositroy about learn how to use git and github.
