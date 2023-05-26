@@ -1,3 +1,7 @@
-# Git-Learning
+# Note
 
-A simple repositroy about learn how to use git and github.
+Repository of learning notes.
+___
+
+[Github](./docs/Git.md)
+[Docker](./docs/Docker.md)
