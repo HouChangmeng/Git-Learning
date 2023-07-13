@@ -36,3 +36,8 @@ ___
 1.git branch -D xxx 删除本地的git分支  
 2.git pull origin main 再把远端的最新代码拉至本地  
 
+___
+
+## 从commit中删除文件
+1. git rm --cached b.txt
+2. git commit --amend --allow-empty，commit的id和上次相同，–allow-empty意思是允许commit的comment为空。
