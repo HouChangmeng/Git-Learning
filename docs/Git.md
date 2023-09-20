@@ -7,12 +7,12 @@ ___
 
 ## 基础流程
 
-1. git pull origin main 拉取代码到本地 (or git clone,或克隆到本地)  
-2. git checkout -b newfeature 切换至新分支newfeature  
+1. git pull *origin main* 拉取代码到本地 (or git clone,或克隆到本地)  
+2. git checkout -b *newfeature* 切换至新分支newfeature  
 3. 修改或者添加本地代码（部署在硬盘的源文件上）  
 4. git diff 查看自己对代码做出的改变  
 5. git add 上传更新后的代码至暂存区  
-6. git commit 可以将暂存区里更新后的代码更新到本地git  
+6. git commit -m "" 可以将暂存区里更新后的代码更新到本地git  
 7. git push origin newfeature 将本地的newfeature分支上传至github上的newfeature分支  
 8. 项目主人采用pull request 中的 squash and merge 合并所有不同的commit  
 
@@ -39,5 +39,6 @@ ___
 ___
 
 ## 从commit中删除文件
-1. git rm --cached b.txt
+
+1. git rm --cached *filename*
 2. git commit --amend --allow-empty，commit的id和上次相同，–allow-empty意思是允许commit的comment为空。
