@@ -1,8 +1,8 @@
-# Note
+# Notes
 
-Repository of learning notes.
+学习笔记
 ___
 
-[Github](./docs/Git.md)
+[Github](./docs/git_and_github/basic_workflow.md)
 
-[Docker](./docs/Docker.md)
+[Docker](./docs/docker/Docker.md)
